@@ -1,43 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+	<meta charset="utf-8">
+	<title>Hello World!</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Site description will be here">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link href="https://kit-pro.fontawesome.com/releases/v5.15.2/css/pro.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/default-edit.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/hero.css">
+	<link rel="stylesheet" href="css/introduction.css">
+	<link rel="stylesheet" href="css/pix-token.css">
+	<link rel="stylesheet" href="css/vault.css">
+	<link rel="stylesheet" href="css/roadmap.css">
+	<link rel="stylesheet" href="css/team.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<!--End ALL STYLESHEET -->
+</head>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<body>
+	<!-- preloader -->
+	<div id="preloader"></div>
+	<!-- preloader-end -->
+	<!-- main-wrap -->
+	<div class="main-wrap">
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+		
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+		<!-- offcanvas-start -->
+		<div class="offcanvas-menu">
+			<ul class="offmenu" id="menuParent">
+				<a href="#" class="offcanvas-close"><i class="fa fa-times"></i></a>
+				<li><a class="active" href="#">Home</a></li>
+				<li><a href="#">Token</a></li>
+				<li><a href="#">Vault</a></li>
+				<li class="d-flex justify-content-center">
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-reddit-alien"></i></a>
+					<a href="#"><i class="fab fa-telegram-plane"></i></a>
+				</li>
+				<li>
+					<a href="#" class="default-button py-0 align-items-center d-flex color-white">
+						<i class="fa fa-plus first-icon"></i>
+						<span>Connect</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="offcanvas-overlay"></div>
+		<!-- offcanvas-start-end -->
+
+		<!-- header-section -->
+		<header class="header-section">
+			<div class="container">
+				<a href="#" class="logo">
+					<img src="images/Logo-white.svg" alt="">
+				</a>
+				<div class="main-menu d-xl-block d-none">
+					<ul>
+						<li><a class="active" href="#">Home</a></li>
+						<li><a href="#">Token</a></li>
+						<li><a href="#">Vault</a></li>
+					</ul>
+				</div>
+				<div class="header-social ms-auto d-xl-block d-none">
+					<ul>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-reddit-alien"></i></a></li>
+						<li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+					</ul>
+				</div>
+				<a href="#" class="header-button default-button header-last-button d-xl-flex d-none">
+					<i class="fa fa-plus first-icon"></i>
+					<span>Connect</span>
+				</a>
+				<a href="#" class="offcanvas-open d-xl-none d-block">
+					<i class="fal fa-bars"></i>
+				</a>
+			</div>
+		</header><!--End header-section -->
+
+		<!-- main -->
+		<main>
+			<!-- hero-section -->
+			<section class="hero-section">
+				<div class="container">
+					<div class="hero-left">
+						<h1>Portfolio In Pixel</h1>
+						<h5>Pre- Sale Is <span class="status">Live</span></h5>
+						<div class="hero-clock">
+							<!-- yyyy/dd/mm -->
+							<div data-countdown="2022/02/12"></div>
+						</div>
+						<p>Perspiciatis unde omnis iste natus error sit voluptatem <br> accusantium doloremque laudantium, totam rem <br> aperiam, eaque ipsa quae ab illo </p>
+						<a href="#" class="text-button">
+							<span>Learn More</span>
+							<i class="fal fa-long-arrow-right icon-right"></i>
+						</a>
+					</div>
+					<div class="hero-right">
+						<div class="exchange-wrapper">
+							<h2>Exchange</h2>
+							<div class="exchange-wrap">
+								<a href="#" class="middle-button">
+									<i class="fal fa-sync"></i>
+								</a>
+								<div class="exchange-box">
+									<select class="top" id="exchange-select1">
+									</select>
+									<div class="bottom">
+										<h4>You Send</h4>
+										<h3>0.05</h3>
+									</div>
+								</div>
+								<div class="exchange-box">
+									<select class="top" id="exchange-select2">
+									</select>
+									<div class="bottom">
+										<h4>You Get</h4>
+										<h3>1.2546466</h3>
+									</div>
+								</div>
+							</div>
+							<a href="#" class="exchange-confirm-button d-flex default-button">
+								<span class="ms-auto">Exchange</span>
+								<i class="fal fa-long-arrow-right arrow-right ms-auto w-0"></i>
+							</a>
+							<div class="bottom-text">
+								<p>Estimated rate: 1 BTC = 15.658987 ETH
+									<br>
+									No extra fees.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section><!-- hero-section end -->
+
+
+
+			<!-- introduction-section -->
+			<section class="introduction-section">
+				<div class="container">
+					<div class="introduction-img">
+						<img src="images/Intro_Img.png" alt="intro">
+					</div>
+					<div class="introduction-text">
+						<h3 class="h3">Introduction</h3>
+						<h2>Perspiciatis Unde Omnis Iste Natus Error Sit Voluptate Accusantium Doloremque.</h2>
+						<p>Pixel Vault is a storage of valuable. It can store unlimited numbers of NFTs and cryptocurrencies (ERC-20) including tokens and stable coins. Pixel Vault has all the functions and tools to give better access to digital asset management in a simple and secure way.</p>
+						<a href="#" class="default-button button default-button-white">
+							<span>Learn More</span>
+							<i class="fal fa-long-arrow-right right-arrow"></i>
+						</a>
+					</div>
+				</div>
+			</section>
+			<!-- introduction-section-end -->
+
+
+			<!-- pix-token -->
+			<section class="pix-token-section">
+				<div class="container">
+					<img src="images/pix-token-shape1.png" alt="" class="pix-token-shape1">
+					<img src="images/pix-token-shape2.png" alt="" class="pix-token-shape2">
+					<div class="section-title text-center">
+						<h2>PIX Token</h2>
+					</div>
+					<div class="pix-token-wrap">
+						<div class="token-details-wrap">
+							<h3>Token Details</h3>
+							<table>
+								<tbody>
+									<tr>
+										<td>Ticker</td>
+										<td>SCHZ</td>
+									</tr>
+									<tr>
+										<td>Token Type</td>
+										<td>ERC20 & BEP2</td>
+									</tr>
+									<tr>
+										<td>Issuing Price</td>
+										<td>$0.0215 USD</td>
+									</tr>
+									<tr>
+										<td>Circulating Supply</td>
+										<td>TBD</td>
+									</tr>
+									<tr>
+										<td>Total Supply</td>
+										<td>8,888,888,888</td>
+									</tr>
+									<tr>
+										<td>Smart Contract Audit</td>
+										<td>https://certik.org/certificate.html? key=75067dbf2eaa13d94c68c85349345e86d6fcb7dd5aa118cd300053696756798c2</td>
+									</tr>
+									<tr>
+										<td>Etherscan</td>
+										<td>https://etherscan.io/ token/0x3506424f91fd33084466f402d5d97f05f8e3b4af</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="pix-token-url-wrap">
+							<h3>Give A Title</h3>
+							<div class="pix-token-url-head">
+								<div class="image">
+									<img src="images/pix-toekn-icon.svg" alt="">
+								</div>
+								<div class="text">
+									<h4>PXT</h4>
+									<h3>PIX Token</h3>
+								</div>
+							</div>
+							<div class="token-url-show-box">
+								<div class="token-url-show-box-inner">
+									<div class="head">
+										<div class="left">
+											<h4>BSC Address</h4>
+											<h3>0x02e244e008631a1a86657dewrtyrwqcd</h3>
+										</div>
+										<div class="right">
+											<a href="#" class="button">
+												<i class="fal fa-copy"></i>
+											</a>
+										</div>
+									</div>
+									<div class="about-token">
+										<div class="single">
+											<h5>MAX Supply</h5>
+											<h4>10,00 PXT</h4>
+										</div>
+										<div class="single">
+											<h5>Token Type</h5>
+											<h4>Utility</h4>
+										</div>
+									</div>
+								</div>
+								<a href="#" class="bottom-button default-button">
+									<img src="images/pancakeswap-cake-seeklogo.com.png" alt="" class="first-icon">
+									<span>Exchange On Pancakeswap</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- pix-token-end -->
+
+
+			<!-- vault-section -->
+			<section class="vault-section">
+				<div class="container">
+					<div class="vault-text-side">
+						<div class="section-title">
+							<h3 class="h3">Vault</h3>
+							<h2>You Own It Forever</h2>
+						</div>
+						<ul>
+							<li><span class="marker"><i class="fal fa-check"></i></span>
+								<span>Unlimited storage of ERC-20 tokens.</span>
+							</li>
+							<li><span class="marker"><i class="fal fa-check"></i></span>
+								<span>Unlimited storage of NFTs.</span>
+							</li>
+							<li><span class="marker"><i class="fal fa-check"></i></span>
+								<span>Complete ownership, only you owns it.</span>
+							</li>
+							<li><span class="marker"><i class="fal fa-check"></i></span>
+								<span>Upgradable, Extendable, transferable.</span>
+							</li>
+						</ul>
+						<div class="button-container">
+							<a href="#" class="default-button button">Deploy Now</a>
+							<a href="#" class="default-button default-button-white button">Manage Vault</a>
+						</div>
+					</div>
+					<div class="vault-img-side">
+						<img src="images/Vault_Image.png" alt="">
+					</div>
+				</div>
+			</section>
+			<!-- vault-section-end -->
+
+			 
+
+			<!-- roadmap-section -->
+			<section class="roadmap-section">
+				<img src="images/road-map-shape.png" alt="" class="roadmap-shape">
+				<div class="container">
+					<div class="section-title text-center">
+						<h3 class="h3">Roadmap</h3>
+						<h2>Winter <br> Roadmap <br> Highlights</h2>
+					</div>
+					<div class="roadmap-wrap">
+						<div class="single-roadmap top first-top">
+							<div class="dec-part">
+								<div class="ellipse"></div>
+								<span class="line"></span>
+							</div>
+							<div class="text-part">
+								<h3>Token Listing</h3>
+								<p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo </p>
+							</div>
+						</div>
+						<div class="single-roadmap top">
+							<div class="dec-part">
+								<div class="ellipse"></div>
+								<span class="line"></span>
+							</div>
+							<div class="text-part">
+								<h3>ICO</h3>
+								<p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo  </p>
+							</div>
+						</div>
+						<div class="single-roadmap top last-top">
+							<div class="dec-part">
+								<div class="ellipse"></div>
+								<span class="line"></span>
+							</div>
+							<div class="text-part">
+								<h3>Vault Ready</h3>
+								<p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo  </p>
+							</div>
+						</div>
+						<div class="single-roadmap bottom">
+							<div class="dec-part">
+								<div class="ellipse"></div>
+								<span class="line"></span>
+							</div>
+							<div class="text-part">
+								<h3>Pixel Ready</h3>
+								<p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo  </p>
+							</div>
+						</div>
+						<div class="single-roadmap bottom">
+							<div class="dec-part">
+								<div class="ellipse"></div>
+								<span class="line"></span>
+							</div>
+							<div class="text-part">
+								<h3>Auction Ready</h3>
+								<p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo  </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- roadmap-section-end -->
+
+
+			<!-- team-section -->
+			<section class="team-section">
+				<img src="images/team-shape.png" alt="" class="team-shape">
+				<div class="container">
+					<div class="section-title">
+						<h3 class="h3">Team</h3>
+						<h2>Perspiciatis Unde Omnis Iste <br> Natus Error Sit Voluptate</h2>
+					</div>
+					<a href="#" class="default-button">
+						<i class="fab fa-github-alt first-icon"></i>
+						Github Source Code
+					</a>
+				</div>
+			</section>
+			<!-- team-section-end -->
+
+		</main><!-- main end -->
+
+		<!-- footer-section -->
+		<footer class="footer-section">
+			<div class="footer-top">
+				<a href="#" class="footer-logo">
+					<img src="images/Logo_Big-white.svg" alt="">
+				</a>
+				<div class="footer-social">
+					<ul>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-reddit-alien"></i></a></li>
+						<li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>© Pixel Vault Banking Resolution  2022</p>
+			</div>
+		</footer><!--End footer-section -->
+	</div><!-- main-wrap -->
+	
+
+
+	<!-- js -->
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.js"></script>
+	<script src="js/selectivizr-1.0.2.min.js"></script>
+	<script src="js/waypoint.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/jquery.scrollUp.min.js"></script>
+	<script src="js/jquery.countdown.min.js"></script>
+	<script src="js/dd-slick.js"></script>
+	<script src="js/main.js"></script>
+	<!-- End All Js -->
+	
+
+</body>
 </html>
