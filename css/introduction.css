@@ -1,0 +1,40 @@
+/* ---introduction-section--- */
+.introduction-section {
+    padding: 50px 0;
+    background: #141c24;
+}
+.introduction-section .container {
+    display: flex;
+    align-items: center;
+}
+.introduction-img {
+
+}
+.introduction-img img {
+
+}
+.introduction-text {
+    width: 42%;
+}
+.introduction-text h3 {
+
+}
+.introduction-text h2 {
+
+}
+.introduction-text p {
+
+}
+.introduction-text .button {
+    margin: 40px 0 0;
+}
+/* ---introduction-section---end--- */
+
+
+
+/* ----light-version----- */
+.light-page .introduction-section {
+    padding-top: 0 !important;
+	background: transparent;
+}
+/* ----light-version-----end */

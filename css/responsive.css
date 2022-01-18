@@ -1,0 +1,723 @@
+
+
+@media (max-width: 1799px) {
+    .logo {
+        width: 180px;
+    }
+    .main-menu ul li a {
+        font-size: 16px;
+    }
+    .main-menu ul li {
+        margin-right: 35px;
+    }
+    .main-menu {
+        margin-left: 160px;
+        margin-right: 40px;
+    }
+    .header-social ul li a {
+        font-size: 20px;
+    }
+    .header-social ul li {
+        margin-right: 24px;
+    }
+    .default-button {
+        min-height: 48px;
+        padding: 0 20px;
+        font-size: 15px;
+    }
+    .default-button .first-icon {
+        margin-right: 9px;
+    }
+
+
+
+
+    .hero-left h1 {
+        margin: 0 0 20px;
+        font-size: 45px;
+    }
+    .hero-left h5 .status {
+        font-size: 15px;
+        height: 32px;
+        padding: 0 14px;
+        margin-left: 15px;
+        border-radius: 4px;
+    }
+    .hero-left h5 {
+        font-size: 17px;
+    }
+    .hero-clock .time-count {
+        width: 90px;
+        height: 105px;
+        font-size: 30px;
+        margin-right: 13px;
+        border-radius: 11px;
+    }
+    .hero-clock .time-count .title {
+        margin: 7px 0 0;
+        font-size: 13px;
+    }
+    .hero-clock {
+        margin: 40px 0 40px;
+    }
+    .hero-left p {
+        font-size: 15px;
+    }
+    .text-button {
+        font-size: 14px;
+    }
+    .hero-left .text-button {
+        margin: 20px 0 0;
+    }
+    .exchange-wrapper h2 {
+        font-size: 20px;
+        margin: 0 0 20px;
+    }
+    .hero-right .exchange-wrapper {
+        border-radius: 14px;
+        padding: 20px;
+    }
+    .exchange-wrapper .exchange-wrap .exchange-box .top .icon {
+        height: 40px;
+        width: 40px;
+    }
+    .exchange-wrapper .exchange-wrap .exchange-box h4 {
+        margin: 0 0 2px;
+        font-size: 12px;
+    }
+    .exchange-wrapper .exchange-wrap .exchange-box h3 {
+        font-size: 17px;
+    }
+    .exchange-wrapper .exchange-wrap .exchange-box .top .arrow {
+        font-size: 11px;
+    }
+    .exchange-wrapper .exchange-wrap .exchange-box {
+        border-radius: 12px;
+    }
+    .exchange-wrapper .exchange-wrap .middle-button {
+        height: 35px;
+        width: 35px;
+        font-size: 16px;
+    }
+    .hero-section {
+        padding: 210px 0 130px;
+    }
+    .dd-selected-image {
+        width: 40px;
+    }
+    .dd-selected label {
+        margin: 0 0 2px;
+        font-size: 12px;
+        line-height: 1;
+    }
+    .dd-selected .dd-selected-description {
+        font-size: 17px;
+    }
+    .dd-option-image {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 45px;
+    }
+    .dd-option {
+        height: 65px;
+        padding-left: 70px !important;
+    }
+
+
+    p {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+    h2 {
+        font-size: 35px;
+        margin: 0 0 30px;
+    }
+    .h3 {
+        font-size: 20px;
+        margin: 0 0 20px;
+    }
+
+
+
+    .introduction-section {
+        padding: 20px 0;
+    }
+
+
+    .pix-token-wrap .token-details-wrap h3 {
+        font-size: 20px;
+        margin: 0 0 20px;
+    }
+    .pix-token-wrap .token-details-wrap td {
+        font-size: 12px;
+        padding: 11px 10px;
+    }
+    .pix-token-wrap .token-details-wrap {
+        border-radius: 10px;
+        padding: 30px 15px;
+    }
+    .pix-token-url-wrap {
+        border-radius: 10px;
+        padding: 30px 15px;
+    }
+    .pix-token-url-wrap h3 {
+        font-size: 20px;
+        margin: 0 0 25px;
+    }
+    .pix-token-url-wrap .pix-token-url-head .image {
+        margin: 0 15px 0 0;
+        width: 40px;
+    }
+    .pix-token-url-wrap .pix-token-url-head .text h4 {
+        font-size: 13px;
+        margin: 0 0 3px;
+    }
+    .pix-token-url-wrap .pix-token-url-head .text h3 {
+        font-size: 17px;
+    }
+    .pix-token-url-wrap .pix-token-url-head {
+        padding: 0 0 23px;
+    }
+    .pix-token-url-wrap .token-url-show-box {
+        padding: 25px 0 0;
+    }
+    .pix-token-url-wrap .token-url-show-box .head h4 {
+        font-size: 12px;
+    }
+    .pix-token-url-wrap .token-url-show-box .head h3 {
+        font-size: 16px;
+    }
+    .pix-token-url-wrap .token-url-show-box .head .right .button {
+        height: 35px;
+        width: 35px;
+        font-size: 17px;
+    }
+    .pix-token-url-wrap .token-url-show-box .head {
+        padding: 20px;
+    }
+    .pix-token-url-wrap .token-url-show-box .about-token .single h5 {
+        font-size: 13px;
+    }
+    .pix-token-url-wrap .token-url-show-box .about-token .single h4 {
+        font-size: 17px;
+    }
+    .pix-token-url-wrap .token-url-show-box .about-token .single {
+        padding: 20px;
+    }
+    .pix-token-url-wrap .token-url-show-box .bottom-button {
+        margin: 30px 0 0;
+    }
+    .pix-token-section {
+        padding: 110px 0 150px;
+    }
+    .pix-token-shape1 {
+        width: 700px;
+    }
+    .pix-token-shape2 {
+        width: 660px;
+    }
+
+
+
+
+    .vault-text-side ul li {
+        font-size: 17px;
+        margin: 0 0 20px;
+    }
+    .vault-text-side ul li .marker {
+        height: 35px;
+        width: 35px;
+        margin: 0 15px 0 0;
+        font-size: 15px;
+    }
+    .vault-text-side .button-container {
+        padding: 25px 0 0;
+        gap: 10px;
+    }
+
+
+
+
+
+    .roadmap-shape {
+        position: absolute;
+        width: 1400px;
+    }
+    .roadmap-section {
+        padding: 130px 0;
+    }
+    .single-roadmap {
+        border-width: 1px !important;
+    }
+    .single-roadmap .text-part h3 {
+        font-size: 22px;
+        margin: 0 0 12px;
+    }
+    .single-roadmap .text-part p {
+        font-size: 13px;
+    }
+    .single-roadmap .dec-part {
+        gap: 10px;
+    }
+    .single-roadmap .dec-part .ellipse {
+        height: 35px;
+        width: 35px;
+        border-radius: 10px;
+        border-width: 1px;
+    }
+    .single-roadmap .dec-part .line {
+        width: 1px;
+    }
+
+
+    .team-section {
+        padding: 100px 0;
+    }
+    .team-shape {
+        width: 1400px;
+    }
+
+
+
+
+
+
+
+    .footer-logo {
+        width: 180px;
+    }
+    .footer-social ul li a {
+        height: 35px;
+        width: 35px;
+        font-size: 15px;
+    }
+    .footer-top {
+        padding: 110px 0 90px;
+    }
+    .footer-social {
+        margin: 35px 0 0;
+    }
+    .footer-bottom {
+        padding: 20px 0;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* --light-version--- */
+    .h1-shape1 {
+        top: -21px;
+        width: 20px;
+    }
+    .h1-shape2 {
+        top: 13px;
+        right: -70px;
+        width: 40px;
+    }
+    .light-page .hero-left h1 {
+        margin: 0 0 20px;
+        padding-bottom: 20px;
+    }
+    .light-page .hero-left h5 .status {
+        font-size: 17px;
+    }
+    .presale-shape {
+        top: 1px;
+        right: -45px;
+        width: 35px;
+    }
+    .hero-clock-shape1 {
+        top: 0px;
+        left: -70px;
+        width: 40px;
+    }
+    .hero-clock-shape2 {
+        top: 60px;
+        right: -60px;
+        width: 55px;
+    }
+    .light-page .hero-clock .time-count {
+        font-size: 54px;
+        margin-right: 20px;
+        margin-right: 25px;
+    }
+    .light-page .hero-clock .time-count:not(:last-child)::after {
+        top: 5px;
+        right: -20px;
+    }
+    .light-page .hero-section {
+        padding: 180px 0 20px;
+    }
+    .light-page .hero-section::before {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1399px) {
+    .main-menu {
+        margin-left: 130px;
+    }
+
+
+    h2 {
+        font-size: 30px;
+        margin: 0 0 27px;
+    }
+    .h3 {
+        font-size: 17px;
+        margin: 0 0 14px;
+    }
+    .introduction-text .button {
+        margin: 13px 0 0;
+    }
+
+
+
+    .single-roadmap .text-part p {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    .hero-section .container {
+        flex-wrap: wrap;
+    }
+    .hero-left {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-right {
+        padding-top: 5%;
+        padding-left: 0;
+        width: 100%;
+    }
+    .hero-section {
+        background: url('../images/hero-right.png') no-repeat center right/100% 100%;
+        position: relative;
+        z-index: 1;
+    }
+    .hero-section::before {
+        content: '';
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #1d2731bd;
+        z-index: -1;
+    }
+
+
+
+    .introduction-section .container {
+        flex-wrap: wrap;
+    }
+    .introduction-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .introduction-img img {
+        width: 80%;
+    }
+    .introduction-text {
+        width: 100%;
+    }
+    .introduction-section {
+        padding: 20px 0 70px;
+    }
+
+
+
+    .pix-token-wrap {
+        padding: 20px 0 0;
+        flex-wrap: wrap;
+    }
+    .pix-token-wrap .token-details-wrap {
+        width: 100%;
+    }
+    .pix-token-url-wrap {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+
+    .vault-section .container {
+        padding: 0 12px 70px;
+        flex-wrap: wrap;
+    }
+    .vault-text-side {
+        width: 100%;
+    }
+    .vault-img-side {
+        width: 100%;
+        order: -1;
+        display: flex;
+        justify-content: center;
+    }
+    .vault-img-side img {
+        width: 80%;
+    }
+
+
+
+
+    .single-roadmap {
+        padding: 30px 0 0 !important;
+        border-width: 1px !important;
+        width: 100% !important;
+        padding-left: 10% !important;
+        border-bottom: 1px solid #3B4D60;
+    }
+    .single-roadmap.bottom .dec-part .line {
+        order: 1;
+        height: initial;
+        flex-grow: 1;
+    }
+    .single-roadmap .text-part {
+        padding: 0 0 25px !important;
+    }
+}
+
+
+@media (max-width: 991px) {
+ 
+}
+
+
+@media (max-width: 768px) {
+    .hero-left h1 {
+        margin: 0 0 15px;
+        font-size: 35px;
+    }
+    .header-section {
+        padding: 30px 0;
+    }
+    .hero-section {
+        padding: 120px 0 80px;
+    }
+    .hero-clock .time-count {
+        width: 70px;
+        height: 85px;
+        font-size: 22px;
+        margin-right: 8px;
+        border-radius: 5px;
+    }
+    .hero-clock .time-count .title {
+        margin: 3px 0 0;
+        font-size: 10px;
+    }
+    .hero-clock {
+        margin: 30px 0 30px;
+    }
+    .exchange-wrapper .exchange-wrap .exchange-box {
+        border-radius: 7px;
+        padding: 10px;
+    }
+    .exchange-wrapper .exchange-wrap .exchange-box .top .icon {
+        height: 28px;
+        width: 28px;
+    }
+    .exchange-wrapper .exchange-wrap .exchange-box h4 {
+        margin: 0 0 2px;
+        font-size: 10px;
+    }
+    .exchange-wrapper .exchange-wrap .exchange-box h3 {
+        font-size: 13px;
+    }
+    .exchange-wrapper .exchange-wrap .exchange-box .top .text {
+        margin: 0 0 0 10px;
+    }
+    .exchange-wrapper .exchange-wrap .middle-button {
+        height: 25px;
+        width: 25px;
+        font-size: 11px;
+    }
+    .default-button {
+        min-height: 40px;
+        padding: 0 15px;
+        font-size: 12px;
+    }
+    .exchange-wrapper .bottom-text p {
+        font-size: 11px;
+    }
+    .exchange-wrapper .bottom-text {
+        margin: 18px 0 0;
+    }
+    .dd-selected-image {
+        height: 28px;
+        width: 28px;
+        margin-right: 11px !important;
+    }
+    .dd-selected label {
+        margin: 0 0 2px;
+    font-size: 10px;
+    }
+    .dd-selected .dd-selected-description {
+        font-size: 13px;
+    }
+    .dd-selected {
+        padding: 0 0 12px !important;
+    }
+    .dd-selected-image {
+        margin-top: 5px !important;
+    }
+    .dd-option-image {
+        top: 8px;
+        left: 5px;
+        width: 30px;
+    }
+    .dd-option label {
+        font-size: 10px !important;
+    }
+    .dd-option small {
+        font-size: 12px !important;
+    }
+    .dd-option {
+        height: 45px;
+        padding: 0 !important;
+        padding-left: 40px !important;
+    }
+
+
+
+
+    h2 {
+        font-size: 22px;
+        margin: 0 0 20px;
+    }
+    .h3 {
+        font-size: 14px;
+        margin: 0 0 10px;
+    }
+    p {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .default-button .right-arrow {
+        margin-left: 15px;
+    }
+    
+
+
+
+
+    /* --light-version--- */
+    .light-page .hero-clock .time-count {
+        font-size: 40px;
+        margin-right: 20px;
+        margin-right: 14px;
+    }
+    .light-page .hero-clock .time-count:not(:last-child)::after {
+        top: 8px;
+        right: -14px;
+    }
+}
+
+
+@media (max-width: 575px) {
+ 
+}
+
+@media (max-width: 460px) {
+    .hero-left h1 {
+        margin: 0 0 15px;
+        font-size: 28px;
+    }
+    .hero-right .exchange-wrapper {
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+
+
+    h2 {
+        font-size: 19px;
+        margin: 0 0 20px;
+    }
+
+
+
+    .vault-text-side ul li {
+        font-size: 14px;
+        margin: 0 0 16px;
+    }
+    .vault-text-side ul li .marker {
+        height: 30px;
+        width: 30px;
+        margin: 0 12px 0 0;
+        font-size: 12px;
+    }
+
+
+
+
+    .pix-token-section {
+        padding: 80px 0 80px;
+    }
+
+
+
+
+    .roadmap-section {
+        padding: 80px 0;
+    }
+    .single-roadmap .dec-part .ellipse {
+        height: 28px;
+        width: 28px;
+        border-radius: 6px;
+        border-width: 1px;
+    }
+    .single-roadmap {
+        padding-left: 5% !important;
+    }
+    .single-roadmap .dec-part {
+        margin-right: 15px;
+    }
+
+
+
+
+    .single-roadmap .text-part h3 {
+        font-size: 18px;
+        margin: 0 0 12px;
+    }
+    .team-section {
+        padding: 70px 0;
+    }
+
+
+
+
+    .footer-top {
+        padding: 85px 0 70px;
+    }
+
+
+
+    .pix-token-url-wrap .token-url-show-box .head h3 {
+        word-break: break-all;
+        word-break: break-word;
+    }
+
+
+
+
+}   
+
+
+@media (max-width: 390px) {
+ 
+}

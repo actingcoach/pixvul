@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.685" cy="0.274" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#05d4f4"/>
+      <stop offset="1" stop-color="#547fef"/>
+    </radialGradient>
+  </defs>
+  <g id="pix-toekn-icon" transform="translate(-989 -257)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="28" cy="28" r="28" transform="translate(989 257)" fill="url(#radial-gradient)"/>
+    <path id="Union_8" data-name="Union 8" d="M-4134.333,124v-3.108h3.108V124Zm-6.217,0v-3.108h3.108V124Zm-6.216,0v-3.108h3.108V124Zm9.324-3.108v-3.108h3.109v3.108Zm-6.216,0v-3.108h3.108v3.108Zm-6.216,0v-.016h0v-3.109h3.109v.017h0v3.108Zm18.645-.008v-3.108h0v0h3.109v3.108h-.005v.005Zm3.122-3.108v-3.109h-3.109v-3.108h3.109v3.108H-4125v3.109Zm-24.892-.009v-3.108h3.109v3.108Zm3.109-3.109v-3.108H-4153v-3.108h3.109v3.108h3.108v3.108Zm8.18-.677.936-3.976a2.965,2.965,0,0,1-1.2-2.383,2.972,2.972,0,0,1,2.972-2.972,2.973,2.973,0,0,1,2.973,2.972,2.967,2.967,0,0,1-1.2,2.387l.934,3.972Zm13.6-2.422V108.45h-3.109v-3.109h3.109v3.109H-4125v3.108Zm-21.783-3.117v-3.108H-4153v-3.108h3.109v3.108h3.108v3.108Zm21.783-3.1v-3.108H-4125v3.108Zm-3.109-3.109v0h-.017V99.12h3.108v0h.018v3.108Zm-15.566-.008h-3.108V99.116h.008v-.008h3.108v3.108h-.007Zm9.333-.008h0V99.108h-3.109V96h3.109v3.109h3.107v3.108ZM-4137.45,102.216Zm-6.217,0h0V99.108h-3.109V96h3.109v3.109h3.108v3.108ZM-4143.667,102.216Zm9.324-3.108V96h3.109v3.109Z" transform="translate(5156.001 175.001)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,108 @@
+/* ---roadmap-section--- */
+.roadmap-section {
+    padding: 170px 0;
+    position: relative;
+    z-index: 1;
+}
+.roadmap-shape {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+.roadmap-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.single-roadmap {
+    padding: 30px 0 0;
+    width: 33.33333333333333%;
+    display: flex;
+}
+.single-roadmap .dec-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-right: 30px;
+}
+.single-roadmap .dec-part .ellipse {
+    height: 48px;
+    width: 48px;
+    border: 2px solid #D9B310;
+    border-radius: 20px;
+    position: relative;
+}
+.single-roadmap .dec-part .ellipse::after {
+    content: '';
+    height: 20%;
+    width: 20%;
+    background: #D9B310;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    border-radius: 50%;
+}
+.single-roadmap .dec-part .line {
+    background: #3B4D60;
+    width: 2px;
+    display: block;
+    flex-grow: 1;
+}
+.single-roadmap .text-part {
+    padding: 0 0 40px;
+}
+.single-roadmap .text-part h3 {
+    font-size: 35px;
+    margin: 0 0 15px;
+    font-weight: 600;
+}
+.single-roadmap .text-part p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+.single-roadmap.top {
+    border-bottom: 2px solid #3B4D60;
+    padding-right: 6.5%;
+    width: 30%;
+}
+.single-roadmap.first-top {
+    padding-left: 6.5%;
+    width: 36.7%;
+}
+.single-roadmap.last-top {
+    /* padding-right: 5%; */
+}
+.single-roadmap.bottom {
+    padding-right: 6.5%;
+    width: 30%;
+    padding-top: 0;
+}
+.single-roadmap.bottom .text-part {
+    padding: 90px 0 0;
+}
+.single-roadmap.bottom .dec-part .line {
+    order: -1;
+    height: 69px;
+    flex-grow: 0;
+}
+/* ---roadmap-section---end--- */
+
+
+
+/* -----light-version----- */
+.light-page .roadmap-section {
+    background: #fbfbfb;
+}
+.light-page .single-roadmap .dec-part .line {
+    background: #E6E6E6;
+} 
+.light-page .single-roadmap.top {
+    border-color: #E6E6E6;;
+}
+/* -----light-version-----end----- */
