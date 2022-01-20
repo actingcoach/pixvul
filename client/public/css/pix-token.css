@@ -1,0 +1,202 @@
+/* ---pix-token-section--- */
+.pix-token-section {
+    padding: 140px 0 180px;
+}
+.pix-token-section .container {
+    position: relative;
+    z-index: 1;
+}
+.pix-token-shape1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translate(-19%,-12%);
+	z-index: -1;
+    pointer-events: none;
+}
+.pix-token-shape2 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	transform: translate(20%,26%);
+	z-index: -1;
+    pointer-events: none;
+}
+.pix-token-wrap {
+    padding: 30px 0 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.pix-token-wrap .token-details-wrap {
+    background: #2a3541;
+    width: 49%;
+    border-radius: 15px;
+    padding: 50px 30px;
+   
+}
+.pix-token-wrap .token-details-wrap h3 {
+    font-size: 30px;
+    margin: 0 0 20px;
+    font-weight: 700;
+}
+.pix-token-wrap .token-details-wrap td {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 18px 15px;
+    border-bottom: 1px solid #151d26;
+    border-top: 1px solid #404a54;
+    line-height: 1.7;
+}
+.pix-token-wrap .token-details-wrap td:first-child {
+    width: 39%;
+}
+.pix-token-wrap .token-details-wrap tr:first-child td {
+    border-top: none;
+}
+.pix-token-wrap .token-details-wrap tr:last-child td {
+    border-bottom: none;
+}
+.pix-token-url-wrap {
+    background: #2a3541;
+    width: 49%;
+    border-radius: 15px;
+    padding: 50px 40px;
+}
+.pix-token-url-wrap h3 {
+    font-size: 30px;
+    margin: 0 0 45px;
+    font-weight: 700;
+}
+.pix-token-url-wrap .pix-token-url-head {
+    padding: 0 0 40px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #151d26;
+    
+}
+.pix-token-url-wrap .pix-token-url-head .image {
+    margin: 0 20px 0 0;
+    box-shadow: 0 6px 12px rgba(85, 129, 239, 0.26);
+    border-radius: 50%;
+    overflow: hidden;
+}
+.pix-token-url-wrap .pix-token-url-head .image img {
+
+}
+.pix-token-url-wrap .pix-token-url-head .text {
+
+}
+.pix-token-url-wrap .pix-token-url-head .text h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #D2D2D2;
+}
+.pix-token-url-wrap .pix-token-url-head .text h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+.pix-token-url-wrap .token-url-show-box {
+    border-top: 1px solid #404a54;
+    padding: 50px 0 0;
+    
+}
+.pix-token-url-wrap .token-url-show-box-inner {
+    border-radius: 15px;
+    background: linear-gradient(#394450,#2b3845);
+    border: 1px solid #49545e;
+}
+.pix-token-url-wrap .token-url-show-box .head {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #49545e;
+}
+.pix-token-url-wrap .token-url-show-box .head .left {
+
+}
+.pix-token-url-wrap .token-url-show-box .head h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #D2D2D2;
+}
+.pix-token-url-wrap .token-url-show-box .head h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+.pix-token-url-wrap .token-url-show-box .head .right {
+	flex-shrink: 0;
+    margin-left: 20px;
+}
+.pix-token-url-wrap .token-url-show-box .head .right .button {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background: linear-gradient(#fafafa,#858585);
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3D3D3D;
+}
+.pix-token-url-wrap .token-url-show-box .about-token {
+    display: flex;
+    
+}
+.pix-token-url-wrap .token-url-show-box .about-token .single {
+    padding: 30px;
+    width: 50%;
+    text-align: center;
+    border-right: 1px solid #49545e;
+}
+.pix-token-url-wrap .token-url-show-box .about-token .single:last-child {
+    border: none;
+}
+.pix-token-url-wrap .token-url-show-box .about-token .single h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #D2D2D2;
+    overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+}
+.pix-token-url-wrap .token-url-show-box .about-token .single h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+.pix-token-url-wrap .token-url-show-box .bottom-button {
+    margin: 50px 0 0;
+    width: 100%;
+}
+/* ---pix-token-section---end--- */
+
+
+/* -----light-version----- */
+.light-page .pix-token-section {
+    background: #f8f8f8;
+}
+.light-page .pix-token-wrap .token-details-wrap {
+	background: #fff;
+}
+.light-page .pix-token-wrap .token-details-wrap td {
+    border: none;
+    color: #1D2731;
+}
+.light-page .pix-token-wrap .token-details-wrap td:first-child {
+    color: #7E7E7E;
+}
+.light-page .pix-token-wrap .token-details-wrap tr:nth-child(odd) {
+    background: #f8f8f8;
+}
+.light-page .pix-token-url-wrap {
+	color: #fff;
+}
+/* -----light-version-----end */

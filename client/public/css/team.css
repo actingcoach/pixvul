@@ -1,0 +1,34 @@
+/* ---team-section--- */
+.team-section {
+    padding: 130px 0;
+    background: #141c24;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.team-shape {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    z-index: -1;
+}
+/* ---team-section---end--- */
+
+
+
+/* -----light-version----- */
+.light-page .team-section {
+    background: transparent;
+    border-bottom: 1px solid #E6E6E6;
+}
+.light-page .footer-social ul li a {
+    background: #fff;
+    color: #dfdfdf;
+    box-shadow: 0 25px 50px #dcdcdc94;
+    transition: 0.3s;
+}
+.light-page .footer-social ul li a:hover {
+    color: #03021E;
+}
+/* -----light-version-----end */
