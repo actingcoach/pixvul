@@ -1,3 +1,37 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Introduction from "./components/Introduction";
+import OffCanvas from "./components/OffCanvas";
+import PixToken from "./components/PixToken";
+import Roadmap from "./components/Roadmap";
+import Team from "./components/Team";
+import Vault from "./components/Vault";
+import Footer from "./components/Footer";
+import PreLoader from "./components/PreLoader";
+
+function App() {
+  return (
+    <div className="main-wrap">
+      <PreLoader />
+      <OffCanvas />
+      <Header />
+      <main>
+        <Hero />
+        <Introduction />
+        <PixToken />
+        <Vault />
+        <Roadmap />
+        <Team />
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
+
+/*
 import React, { Component } from "react";
 import SimpleStorageContract from "./contracts/SimpleStorage.json";
 import getWeb3 from "./getWeb3";
@@ -71,3 +105,4 @@ class App extends Component {
 }
 
 export default App;
+*/
