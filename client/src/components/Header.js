@@ -1,43 +1,32 @@
+import { useEffect, useState } from "react";
 import React from "react";
-import Web3 from "web3";
+import { useMetamask } from "use-metamask";
+import { ethers } from "ethers";
 
-const Header = () => {
+function Header() {
+  const { connect, metaState } = useMetamask();
 
-  const connect = async(event) => {
-
-    // Check for Metamask
-    if (typeof window.ethereum == 'undefined') {
-      return
+  useEffect(() => {
+    if (metaState.isConnected === false) {
+      console.log('disconnected')
     }
+  }, [metaState.isConnected])
 
+  // create a function that returns correct Connect button status
+
+  const connectBtn = async (event) => {
+    console.log('connectBtn clicked')
     // Connect
-    if (window.ethereum) {
-      const web3 = new Web3(window.ethereum);
+    if (!metaState.isConnected) {
       try {
-        // Request account access if needed
-        await window.ethereum.enable();
-        // Accounts now exposed
+        await connect(ethers.providers.Web3Provider, "any")
       } catch (error) {
-
+        console.log('isConnected err')
+        console.log(error)
       }
     }
-    // Legacy dapp browsers...
-    else if (window.web3) {
-      // Use Mist/MetaMask's provider.
-      const web3 = window.web3;
-      console.log("Injected web3 detected.");
-    }
-    // Fallback to localhost; use dev console port by default...
-    else {
-      const provider = new Web3.providers.HttpProvider(
-        "http://127.0.0.1:8545"
-      );
-      const web3 = new Web3(provider);
-      console.log("No web3 instance injected, using Local web3.");
-    }
-
   }
-
+  
   return (
     <header className="header-section">
       <div className="container">
@@ -78,14 +67,14 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <a
-          href="/#"
-          className="header-button default-button header-last-button d-xl-flex d-none"
-          onClick={connect}
+        <button
+          type="button"
+          className="btn btn-primary default-button header-last-button d-xl-flex d-none"
+          onClick={connectBtn}
         >
-          <i className="fa fa-plus first-icon"></i>
-          <span>Connect</span>
-        </a>
+          {!metaState.isConnected && <i className="fa fa-plus first-icon"></i>}
+          <span>{metaState.account[0]? metaState.account[0] : 'Connect'}</span>
+        </button>
         <a href="/#" className="offcanvas-open d-xl-none d-block">
           <i className="fal fa-bars"></i>
         </a>
